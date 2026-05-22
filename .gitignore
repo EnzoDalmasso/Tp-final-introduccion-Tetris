@@ -1,0 +1,18 @@
+# --- Ejecutables y Compilación ---
+*.exe
+*.o
+*.obj
+*.out
+
+# --- Archivos temporales y de configuración de ZinJai ---
+# Ignora la carpeta oculta de ZinJai donde guarda configuraciones locales
+.zinjai/
+# Archivos de opciones del proyecto que no son necesarios en el repositorio
+*.zpt
+# Archivos de respaldo automáticos que crea ZinJai
+*.bak
+
+# --- Archivos del Sistema Operativo ---
+Thumbs.db
+desktop.ini
+.DS_Store
